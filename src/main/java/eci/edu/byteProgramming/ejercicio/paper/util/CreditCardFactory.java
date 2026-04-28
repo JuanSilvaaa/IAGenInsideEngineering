@@ -15,6 +15,7 @@ public class CreditCardFactory extends PaymentMethod{
         this.name = name;
         this.expirationDate = expirationDate;
         this.cvv = cvv;
+        this.address = address;
         this.cardType = determineCardType(number);
     }
 
@@ -52,6 +53,7 @@ public class CreditCardFactory extends PaymentMethod{
         try {
             Thread.sleep(2000);
             System.out.println("Contacting bank for card: " + maskCardNumber());
+            System.out.println("Billing address validated: " + address);
             System.out.println("Payment authorized by bank");
             
             setStatus(PaymentStatus.COMPLETED);

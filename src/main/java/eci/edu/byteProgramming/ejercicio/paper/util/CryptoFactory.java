@@ -12,7 +12,7 @@ public class CryptoFactory extends PaymentMethod {
         super(amount, customerId, description);
         this.walletAddress = walletAddress;
         this.cryptoType = cryptoType;
-        this.token = token;
+        this.token = cryptoType + "-TOKEN";
         this.walletBalance = walletBalance;
     }
     
@@ -43,6 +43,7 @@ public class CryptoFactory extends PaymentMethod {
         
         try {
             Thread.sleep(3000);
+            System.out.println("Network token: " + token);
             this.blockchainHash = generateBlockchainHash();
             System.out.println("Transaction broadcasted to blockchain");
             System.out.println("Blockchain hash: " + blockchainHash);
