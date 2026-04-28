@@ -1,5 +1,65 @@
 # Solucion Problema 1 - El Videoclub de Don Mario
 
+
+# prompt 1:
+chatgpt: haz un prompt para que la ia de github revise todo el repositorio, analice el problema propuesto numero 1titulado "el videoclub de don" y genere todo el codigo y copie la solucion en un nuevo readme llamado "solucion 1", quiero que este promp detallado tenga 500 palabras
+
+# promt 2:
+copilot:Actúa como un ingeniero de software senior con experiencia en análisis de repositorios, diseño orientado a objetos y generación de soluciones completas. Tu tarea es revisar TODO el repositorio actual, comprender su estructura, propósito y contexto, y luego enfocarte específicamente en el problema propuesto número 1 titulado "El videoclub de Don".
+
+Primero, realiza un análisis exhaustivo del repositorio:
+
+Identifica la arquitectura general del proyecto (capas, paquetes, módulos).
+Describe las clases existentes, sus responsabilidades y relaciones.
+Detecta si hay código incompleto, errores de diseño o partes no implementadas.
+Revisa si existen pruebas, documentación o diagramas que ayuden a entender el problema.
+
+Luego, enfócate en el problema "El videoclub de Don":
+
+Interpreta claramente los requerimientos funcionales y no funcionales.
+Si los requerimientos no están completamente explícitos, infiérelos con base en el contexto del repositorio y buenas prácticas.
+Define el modelo de dominio necesario (clases, atributos, métodos, relaciones).
+Asegúrate de aplicar principios de diseño como SOLID, encapsulamiento y cohesión.
+
+A continuación, genera una solución completa y funcional, que incluya:
+
+Todas las clases necesarias correctamente estructuradas.
+Implementación detallada de métodos con lógica clara.
+Uso de nombres descriptivos y buenas prácticas de programación.
+Manejo de errores y validaciones cuando sea necesario.
+Comentarios y documentación en el código (JavaDoc o equivalente).
+
+Si el proyecto está en Java (por ejemplo), asegúrate de:
+
+Respetar la estructura de paquetes existente.
+Mantener consistencia con el estilo del código ya presente.
+Integrar tu solución sin romper el resto del sistema.
+
+También debes:
+
+Crear pruebas unitarias para validar la solución (por ejemplo, usando JUnit).
+Asegurarte de que los casos principales del problema estén cubiertos.
+Explicar brevemente qué valida cada prueba.
+
+Finalmente, debes generar un nuevo archivo en el repositorio:
+
+Nombre del archivo: README_solucion_1.md (o “solucion 1” si se requiere exactamente así).
+Este README debe incluir:
+Explicación clara del problema.
+Enfoque de la solución.
+Descripción del diseño (clases y relaciones).
+Instrucciones para ejecutar el código.
+Ejemplos de uso.
+Explicación de las pruebas.
+
+IMPORTANTE:
+
+No elimines ni modifiques archivos existentes innecesariamente.
+Toda la solución debe ser autosuficiente, clara y lista para ejecutarse.
+El README debe estar bien redactado, organizado y pensado para que cualquier desarrollador entienda rápidamente la solución.
+
+Tu objetivo es entregar una solución completa, profesional y lista para producción del problema “El videoclub de Don”, basada en el análisis del repositorio.
+
 ## 1. Problema
 
 Don Mario necesita un sistema de alquiler de peliculas que permita:
